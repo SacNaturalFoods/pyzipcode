@@ -22,7 +22,6 @@ setup(name='pyzipcode',
       license='GPL',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
       package_data={'pyzipcode': ['zipcodes.db']},
-      include_package_data=True,
       zip_safe=False,
       install_requires=requires,
       entry_points="""
